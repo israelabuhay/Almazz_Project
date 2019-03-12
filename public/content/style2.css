@@ -856,9 +856,8 @@ body{background: #f5f5f5}
 }
 
 .xbox {
-  background: #FFF;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
   overflow: hidden;
   position: absolute;
@@ -871,18 +870,17 @@ body{background: #f5f5f5}
 .xbox:after, .xbox:before {
   content: "";
   display: block;
-  border-top: 10px solid #222;
   border-radius: 50%;
   height: 90%;
   width: 120%;
-  transform: rotate(-45deg);
+  
   position: absolute;
   right: -30%;
   top: 15%;
 }
 .xbox:before {
   left: -30%;
-  transform: rotate(45deg);
+  
 }
 
 .loading-text {
