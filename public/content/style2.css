@@ -51,7 +51,7 @@ header {
     align-items: center;
     border-radius: 50%;
     color: white;
-    background-color: #ffcf40;
+    background-color: rgb(248, 160, 28,0.5);
     }
     a{
       text-decoration:none;
@@ -771,7 +771,7 @@ body{background: #f5f5f5}
   background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
   color: #a7a7a7;
-  margin: 36px;
+  margin: 36px 36px 15px 36px;
   width: 80px;
   height: 80px;
   position: relative;
@@ -780,6 +780,15 @@ body{background: #f5f5f5}
   border-radius: 50%;
   box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
 }
+
+@media (max-width: 600px) {
+  .nav-icon a {
+    width: 49px;
+    height: 49px;
+    line-height: 1.3em;
+  }
+}
+
 .nav-icon a:hover{
   text-decoration: none;
   color: #555;
@@ -856,8 +865,8 @@ body{background: #f5f5f5}
 }
 
 .xbox {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   overflow: hidden;
   position: absolute;
